@@ -1,5 +1,5 @@
 def contar_a(frase):
-    contagem = frase.count("a")
+    contagem = frase.lower().count('a')
     return contagem
 
 frase = input("Digite uma frase: ")
